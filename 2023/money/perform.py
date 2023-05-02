@@ -11,7 +11,6 @@ FLOAT_NUM = 12345.6789
 LARGE_FLOAT_NUM = 12345678901234567890.1234567890
 DECIMAL_NUM = decimal.Decimal("12345.6789")
 
-
 # Test functions
 def test_int():
     return INT_NUM * INT_NUM + INT_NUM - INT_NUM // INT_NUM
