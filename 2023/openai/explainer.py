@@ -2,8 +2,12 @@ import os
 from functools import partial
 
 import openai
+ 
 
+openai.organization ="org-GSZdfbKCCOpOUMiAYcv9DVDa"
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
+
 
 
 def send_question(question: str) -> dict:
